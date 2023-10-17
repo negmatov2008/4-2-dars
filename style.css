@@ -119,3 +119,108 @@ body {
   font-weight: 600;
   line-height: normal;
 }
+.menyu_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.menyu_1-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 18px;
+  padding: 0 20px;
+}
+.menyu_1-top h4 {
+  color: #fff;
+  font-family: Gilroy;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.menyu_1-top span {
+  color: #686f82;
+  text-align: right;
+  font-family: Gilroy;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.menyu_1-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 76px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  border-radius: 15px;
+  background: rgba(44, 47, 56, 0.64);
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 108px;
+}
+.box img {
+  width: 40.254px;
+  height: 36.429px;
+  flex-shrink: 0;
+  margin-bottom: 13px;
+}
+.box span {
+  color: #fff;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.price_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.price_1-top {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 19px;
+  justify-content: center;
+  align-items: center;
+}
+.price_1-top h4 {
+  color: #9ca0af;
+  text-align: right;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.price_1-top span {
+  color: #ff7269;
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.price_1-body {
+  position: absolute;
+  background-color: #ff7269;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 55px;
+  border-top-left-radius: 90%;
+  border-top-right-radius: 90%;
+}
